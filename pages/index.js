@@ -70,7 +70,7 @@ export default function Home() {
         {/* Footer */}
 
         <div className='flex justify-center pb-[91px] mt-64'>
-          <div className=' flex flex-col space-y-10 md:flex justify-between w-[1110px] h-[79px] '>
+          <div className=' flex flex-col space-y-10 justify-between md:flex sm:bg-white sm:flex-row  w-[1110px] h-[79px] '>
 
             <p className='text-2xl fon t-bold'>equalizer</p>
             {/* 1. Rights and contact us */}
