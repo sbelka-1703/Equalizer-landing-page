@@ -6,7 +6,7 @@ export default function Home() {
   return (
     //pt-[112px] pl-[146px] pr-[27px]
     <>
-      <div className=' relative	bg-main-desktop  h-[1758px] l-[1613px] bg-[center_bottom_100px] font-IBM '>
+      <div className=' relative	bg-main-desktop  h-[1758px] l-[1613px] font-IBM '>
         {/* Brand and descrition */}
         <div className='absolute max-w-3xl left-40 top-16'>
           <p className='text-2xl font-bold'>equalizer</p>
@@ -15,7 +15,7 @@ export default function Home() {
         </div>
         {/* Top image */}
         <div>
-          <svg className='absolute right-2 left-top-right-image' width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M78 0c43.078 0 78 34.922 78 78v234h-56C44.772 312 0 267.228 0 212V78C0 34.922 34.922 0 78 0Z" fill="#66E2DC" /><path d="M156 312h78c43.078 0 78 34.922 78 78s-34.922 78-78 78-78-34.922-78-78v-78Z" fill="#191826" /><rect fill="#FFB964" x="234" y="78" width="78" height="78" rx="39" /><rect fill="#FA7453" x="234" width="78" height="78" rx="39" /><rect fill="#FA7453" y="312" width="156" height="156" rx="78" /><rect fill="#191826" x="156" width="78" height="156" rx="39" /><rect stroke="#191826" stroke-width="2" x="157" y="157" width="154" height="154" rx="77" /><rect stroke="#191826" stroke-width="2" x="157" y="196" width="76" height="76" rx="38" /></g></svg>
+          <svg className='absolute right-4 left-top-right-image' width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M78 0c43.078 0 78 34.922 78 78v234h-56C44.772 312 0 267.228 0 212V78C0 34.922 34.922 0 78 0Z" fill="#66E2DC" /><path d="M156 312h78c43.078 0 78 34.922 78 78s-34.922 78-78 78-78-34.922-78-78v-78Z" fill="#191826" /><rect fill="#FFB964" x="234" y="78" width="78" height="78" rx="39" /><rect fill="#FA7453" x="234" width="78" height="78" rx="39" /><rect fill="#FA7453" y="312" width="156" height="156" rx="78" /><rect fill="#191826" x="156" width="78" height="156" rx="39" /><rect stroke="#191826" stroke-width="2" x="157" y="157" width="154" height="154" rx="77" /><rect stroke="#191826" stroke-width="2" x="157" y="196" width="76" height="76" rx="38" /></g></svg>
         </div>
         {/* Black background element */}
         <div className='absolute rounded-lg top-[860px] bottom-[372px] right-[165px] left-[165px]  w-[1110px] h-[600px] bg-black'>
@@ -70,18 +70,19 @@ export default function Home() {
       {/* Footer */}
 
       <div className='flex justify-center pb-[91px]'>
-        <div className='flex justify-between w-[1110px] h-[79px] '>
-          <p className='text-2xl font-bold'>equalizer</p>
-          {/* 1. Rights and contact us */}
-          <div className='text-left max-w-[366px]'>
-            <p>All rights reserved © Equalizer 2021</p>
-            <p className='text-[16px] leading-20'>
+        <div className=' flex flex-col space-y-10 md:flex justify-between w-[1110px] h-[79px] '>
+        
+            <p className='text-2xl fon t-bold'>equalizer</p>
+            {/* 1. Rights and contact us */}
+            <div className='text-left max-w-[366px]'>
+              <p>All rights reserved © Equalizer 2021</p>
+              <p className='text-[16px] leading-20'>
+                Have any problems? Contact us via social media or email us at <strong>equalizer@example.com</strong>
+              </p>
+            </div>
+         
 
 
-
-              Have any problems? Contact us via social media or email us at <strong>equalizer@example.com</strong>
-            </p>
-          </div>
           {/* 2.  Social media icons */}
           <div className='flex items-center space-x-[20px] '>
             <svg className=' cursor-pointer fill-[#191826] hover:fill-[#FA7453]' width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0Z" /></svg>
