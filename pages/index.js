@@ -6,7 +6,7 @@ export default function Home() {
   return (
     //pt-[112px] pl-[146px] pr-[27px]
     <>
-      <div className=' relative	bg-main-desktop  h-max l-max font-IBM '>
+      <div className=' relative bg-main-mobile md:bg-main-tablet	lg:bg-main-desktop   h-max l-max font-IBM '>
 
        
         {/* Brand and descrition */}
@@ -18,11 +18,11 @@ export default function Home() {
 
          {/* Top image */}
          
-        <svg className='absolute top-0 right-0' width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M78 0c43.078 0 78 34.922 78 78v234h-56C44.772 312 0 267.228 0 212V78C0 34.922 34.922 0 78 0Z" fill="#66E2DC" /><path d="M156 312h78c43.078 0 78 34.922 78 78s-34.922 78-78 78-78-34.922-78-78v-78Z" fill="#191826" /><rect fill="#FFB964" x="234" y="78" width="78" height="78" rx="39" /><rect fill="#FA7453" x="234" width="78" height="78" rx="39" /><rect fill="#FA7453" y="312" width="156" height="156" rx="78" /><rect fill="#191826" x="156" width="78" height="156" rx="39" /><rect stroke="#191826" stroke-width="2" x="157" y="157" width="154" height="154" rx="77" /><rect stroke="#191826" stroke-width="2" x="157" y="196" width="76" height="76" rx="38" /></g></svg>
+        <svg className='hidden md:block absolute top-0 right-0' width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M78 0c43.078 0 78 34.922 78 78v234h-56C44.772 312 0 267.228 0 212V78C0 34.922 34.922 0 78 0Z" fill="#66E2DC" /><path d="M156 312h78c43.078 0 78 34.922 78 78s-34.922 78-78 78-78-34.922-78-78v-78Z" fill="#191826" /><rect fill="#FFB964" x="234" y="78" width="78" height="78" rx="39" /><rect fill="#FA7453" x="234" width="78" height="78" rx="39" /><rect fill="#FA7453" y="312" width="156" height="156" rx="78" /><rect fill="#191826" x="156" width="78" height="156" rx="39" /><rect stroke="#191826" stroke-width="2" x="157" y="157" width="154" height="154" rx="77" /><rect stroke="#191826" stroke-width="2" x="157" y="196" width="76" height="76" rx="38" /></g></svg>
         
 
         {/* Black background element */}
-        <div className=' rounded-lg mx-auto my-80  w-[1110px] h-[600px] bg-black'>
+        <div className=' rounded-lg mx-auto my-80  w-[1110px] md:w-[810px] h-[600px] bg-black'>
           <div className='relative'>
             {/* Background multicolor patttern */}
             <div className=' absolute left-[336px] bottom-[-425px] overflow-hidden'>
@@ -33,7 +33,7 @@ export default function Home() {
               <Image src='/illustration-app.png' width={280} height={606} />
             </div>
             {/* Orange card */}
-            <div className=' text-white p-14 absolute rounded-lg top-[90px] left-[569px] w-[446px] h-[625px] bg-[#FA7453]'>
+            <div className=' text-white p-14 absolute rounded-lg top-[90px] left-[569px] md:left-[300px] w-[446px]  h-[625px] bg-[#FA7453]'>
               <p className='pb-6 text-3xl font-bold'>Premium EQ</p>
               <p className='text-xl leading-8'>Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your listening experience to a whole new level and access all our incredible features!</p>
               <div className='flex items-center py-10 mb-9'>
@@ -70,7 +70,7 @@ export default function Home() {
         {/* Footer */}
 
         <div className='flex justify-center pb-[91px] mt-64'>
-          <div className=' flex flex-col space-y-10 justify-between md:flex sm:bg-white sm:flex-row  w-[1110px] h-[79px] '>
+          <div className=' flex m-10 pb-5 flex-col space-y-10 justify-between md:flex sm:bg-white sm:flex-row  w-[1110px] h-[79px] '>
 
             <p className='text-2xl fon t-bold'>equalizer</p>
             {/* 1. Rights and contact us */}

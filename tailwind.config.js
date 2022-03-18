@@ -10,6 +10,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'main-desktop': "url('/bg-main-desktop.png')",
+        'main-tablet': "url('/bg-main-tablet.png')",
+        'main-mobile': "url('/bg-main-mobile.png')",
        
       },
       spacing: {
