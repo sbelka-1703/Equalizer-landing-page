@@ -18,27 +18,22 @@ export default function Home() {
           <p className='max-w-sm mt-10 md:max-w-md lg:max-w-2xl'>A system audio equalizer specifically designed for Android and iOS. Freely tune the way your music sounds with a professional grade parametric EQ & volume mixer. Control bass, mids, treble, gain control, reverb, and more!</p>
         </div>
 
-         
-         
-        
-        
-
         {/* Black background element */}
-        <div className=' rounded-lg mx-auto my-80 w-[600px]  lg:w-[1110px] md:w-[810px] h-[600px] bg-black'>
+        <div className=' rounded-lg mx-auto my-80 w-[375px]  lg:w-[1110px] md:w-[810px] h-[600px] bg-black'>
           <div className='relative'>
             {/* Background multicolor patttern */}
-            <div className=' absolute bottom-[-425px]  lg:left-[336px]  overflow-hidden'>
+            <div className=' absolute bottom-[-469px] left-8 sm:bottom-[-425px]  lg:left-[336px]  overflow-hidden'>
               <svg width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M234 78c43.078 0 78 34.922 78 78v156h-56c-55.228 0-100-44.772-100-100v-56c0-43.078 34.922-78 78-78Z" fill="#66E2DC" /><rect fill="#FCFAF9" x="78" y="78" width="78" height="78" rx="39" /><rect fill="#66E2DC" width="78" height="156" rx="39" /><rect fill="#FFB964" y="156" width="156" height="156" rx="78" /><g transform="translate(0 312)" stroke="#FCFAF9" stroke-width="2"><rect x="1" y="1" width="154" height="154" rx="77" /><rect x="40" y="79" width="76" height="76" rx="38" /></g></g></svg>
             </div>
             {/* Phone image */}
-            <div className='absolute left-[134px] top-[-171px] bottom-[172px] '>
+            <div className='absolute w-52 h-4 left-16  sm:w-full  sm:left-[134px] top-[-171px] bottom-[172px] '>
               <Image src='/illustration-app.png' width={280} height={606} />
             </div>
             {/* Orange card */}
-            <div className=' text-white p-14 absolute rounded-lg  w-[446px] h-[625px] top-80 md:left-[569px] sm:left-[300px] sm:top-[90px]  bg-[#FA7453]'>
+            <div className=' text-white p-14 absolute rounded-lg top-[420px] w-[375px] h-[625px] sm:w-[446px]  md:left-[569px] sm:left-[300px] sm:top-[90px]  bg-[#FA7453]'>
               <p className='pb-6 text-3xl font-bold'>Premium EQ</p>
-              <p className='text-xl leading-8'>Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your listening experience to a whole new level and access all our incredible features!</p>
-              <div className='flex items-center py-10 mb-9'>
+              <p className=' text-l sm:text-xl leading-8'>Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your listening experience to a whole new level and access all our incredible features!</p>
+              <div className='flex items-center py-10 mb-6'>
                 <p className='text-6xl font-bold'>$4 </p>
                 <p className='ml-3 text-xl'>/ month</p>
               </div>
@@ -47,7 +42,7 @@ export default function Home() {
               <div className='flex flex-col items-center space-y-3 '>
 
                 {/* iOS button */}
-                <button className='w-[333px] h-16 bg-black hover:bg-[#66E2DC]  rounded-xl font-bold'>
+                <button className='w-[333px] h-16 bg-black hover:bg-[#66E2DC] rounded-xl font-bold'>
                   <div className='flex justify-center'>
                     <svg className='mr-2' width="18" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M12.683 4.681c1.359 0 2.798.745 3.821 2.029-3.356 1.851-2.812 6.674.58 7.965-.467 1.04-.69 1.504-1.292 2.425-.839 1.285-2.02 2.886-3.486 2.897-1.302.014-1.637-.852-3.403-.842-1.766.009-2.134.857-3.437.845C4 19.987 2.88 18.542 2.042 17.257-.302 13.667-.549 9.45.897 7.207c1.029-1.592 2.651-2.523 4.175-2.523 1.551 0 2.527.856 3.812.856 1.247 0 2.005-.859 3.8-.859ZM12.291 0c.178 1.215-.315 2.405-.968 3.246-.697.904-1.901 1.603-3.066 1.566-.213-1.163.332-2.36.995-3.167C9.978.756 11.224.074 12.291 0Z" fill="#FCFAF9" /></svg>
                     iOS Download
@@ -71,10 +66,10 @@ export default function Home() {
 
         {/* Footer */}
 
-        <div className='flex justify-center pb-[91px] mt-64'>
+        <div className='flex justify-center mb-12 sm:mb-0 mt-[500px] pb-[91px] sm:mt-64 '>
           <div className=' flex m-10 pb-5 flex-col space-y-10 justify-between md:flex sm:bg-white sm:flex-row  w-[1110px] h-[79px] '>
 
-            <p className='text-2xl font-bold fon'>equalizer</p>
+            <p className='text-2xl font-bold '>equalizer</p>
             {/* 1. Rights and contact us */}
             <div className='text-left max-w-[366px]'>
               <p>All rights reserved © Equalizer 2021</p>
