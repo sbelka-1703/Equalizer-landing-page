@@ -6,26 +6,28 @@ export default function Home() {
   return (
     //pt-[112px] pl-[146px] pr-[27px]
     <>
-      <div className=' relative bg-main-mobile md:bg-main-tablet	lg:bg-main-desktop   h-max l-max font-IBM '>
+      <div className='relative bg-main-mobile md:bg-main-tablet lg:bg-main-desktop h-max l-max font-IBM'>
 
+        {/* Top image */}
+      <svg className='absolute top-0 right-0 hidden md:block' width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M78 0c43.078 0 78 34.922 78 78v234h-56C44.772 312 0 267.228 0 212V78C0 34.922 34.922 0 78 0Z" fill="#66E2DC" /><path d="M156 312h78c43.078 0 78 34.922 78 78s-34.922 78-78 78-78-34.922-78-78v-78Z" fill="#191826" /><rect fill="#FFB964" x="234" y="78" width="78" height="78" rx="39" /><rect fill="#FA7453" x="234" width="78" height="78" rx="39" /><rect fill="#FA7453" y="312" width="156" height="156" rx="78" /><rect fill="#191826" x="156" width="78" height="156" rx="39" /><rect stroke="#191826" stroke-width="2" x="157" y="157" width="154" height="154" rx="77" /><rect stroke="#191826" stroke-width="2" x="157" y="196" width="76" height="76" rx="38" /></g></svg>
        
         {/* Brand and descrition */}
-        <div className=' max-w-3xl mx-auto '>
+        <div className='max-w-3xl pt-12 pl-6 mx-auto '>
           <p className='text-2xl font-bold'>equalizer</p>
-          <p className='mt-32 text-6xl font-bold'> We make your music sound extraordinary.</p>
-          <p className='mt-10'>A system audio equalizer specifically designed for Android and iOS. Freely tune the way your music sounds with a professional grade parametric EQ & volume mixer. Control bass, mids, treble, gain control, reverb, and more!</p>
+          <p className='max-w-md mt-32 text-6xl font-bold lg:max-w-2xl'> We make your music sound extraordinary.</p>
+          <p className='max-w-sm mt-10 md:max-w-md lg:max-w-2xl'>A system audio equalizer specifically designed for Android and iOS. Freely tune the way your music sounds with a professional grade parametric EQ & volume mixer. Control bass, mids, treble, gain control, reverb, and more!</p>
         </div>
 
-         {/* Top image */}
          
-        <svg className='hidden md:block absolute top-0 right-0' width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M78 0c43.078 0 78 34.922 78 78v234h-56C44.772 312 0 267.228 0 212V78C0 34.922 34.922 0 78 0Z" fill="#66E2DC" /><path d="M156 312h78c43.078 0 78 34.922 78 78s-34.922 78-78 78-78-34.922-78-78v-78Z" fill="#191826" /><rect fill="#FFB964" x="234" y="78" width="78" height="78" rx="39" /><rect fill="#FA7453" x="234" width="78" height="78" rx="39" /><rect fill="#FA7453" y="312" width="156" height="156" rx="78" /><rect fill="#191826" x="156" width="78" height="156" rx="39" /><rect stroke="#191826" stroke-width="2" x="157" y="157" width="154" height="154" rx="77" /><rect stroke="#191826" stroke-width="2" x="157" y="196" width="76" height="76" rx="38" /></g></svg>
+         
+        
         
 
         {/* Black background element */}
-        <div className=' rounded-lg mx-auto my-80  w-[1110px] md:w-[810px] h-[600px] bg-black'>
+        <div className=' rounded-lg mx-auto my-80 w-[600px]  lg:w-[1110px] md:w-[810px] h-[600px] bg-black'>
           <div className='relative'>
             {/* Background multicolor patttern */}
-            <div className=' absolute left-[336px] bottom-[-425px] overflow-hidden'>
+            <div className=' absolute bottom-[-425px]  lg:left-[336px]  overflow-hidden'>
               <svg width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M234 78c43.078 0 78 34.922 78 78v156h-56c-55.228 0-100-44.772-100-100v-56c0-43.078 34.922-78 78-78Z" fill="#66E2DC" /><rect fill="#FCFAF9" x="78" y="78" width="78" height="78" rx="39" /><rect fill="#66E2DC" width="78" height="156" rx="39" /><rect fill="#FFB964" y="156" width="156" height="156" rx="78" /><g transform="translate(0 312)" stroke="#FCFAF9" stroke-width="2"><rect x="1" y="1" width="154" height="154" rx="77" /><rect x="40" y="79" width="76" height="76" rx="38" /></g></g></svg>
             </div>
             {/* Phone image */}
@@ -33,7 +35,7 @@ export default function Home() {
               <Image src='/illustration-app.png' width={280} height={606} />
             </div>
             {/* Orange card */}
-            <div className=' text-white p-14 absolute rounded-lg top-[90px] left-[569px] md:left-[300px] w-[446px]  h-[625px] bg-[#FA7453]'>
+            <div className=' text-white p-14 absolute rounded-lg  w-[446px] h-[625px] top-80 md:left-[569px] sm:left-[300px] sm:top-[90px]  bg-[#FA7453]'>
               <p className='pb-6 text-3xl font-bold'>Premium EQ</p>
               <p className='text-xl leading-8'>Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your listening experience to a whole new level and access all our incredible features!</p>
               <div className='flex items-center py-10 mb-9'>
@@ -72,7 +74,7 @@ export default function Home() {
         <div className='flex justify-center pb-[91px] mt-64'>
           <div className=' flex m-10 pb-5 flex-col space-y-10 justify-between md:flex sm:bg-white sm:flex-row  w-[1110px] h-[79px] '>
 
-            <p className='text-2xl fon t-bold'>equalizer</p>
+            <p className='text-2xl font-bold fon'>equalizer</p>
             {/* 1. Rights and contact us */}
             <div className='text-left max-w-[366px]'>
               <p>All rights reserved © Equalizer 2021</p>
