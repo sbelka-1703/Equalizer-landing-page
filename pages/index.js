@@ -6,6 +6,10 @@ export default function Home() {
   return (
     //pt-[112px] pl-[146px] pr-[27px]
     <>
+
+    <div className='w-20 h-20 bg-red-700 md:bg-green-600 lg:bg-purple-600'>
+
+    </div>
       <div className='relative bg-main-mobile md:bg-main-tablet lg:bg-main-desktop h-max l-max font-IBM'>
 
         {/* Top image */}
@@ -22,17 +26,17 @@ export default function Home() {
         <div className=' rounded-lg mx-auto my-80 w-[375px]  lg:w-[1110px] md:w-[810px] h-[600px] bg-black'>
           <div className='relative'>
             {/* Background multicolor patttern */}
-            <div className=' absolute bottom-[-469px] left-8 sm:bottom-[-425px]  lg:left-[336px]  overflow-hidden'>
+            <div className=' absolute bottom-[-469px] left-8 md:bottom-[-425px]   lg:left-[336px]  overflow-hidden'>
               <svg width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M234 78c43.078 0 78 34.922 78 78v156h-56c-55.228 0-100-44.772-100-100v-56c0-43.078 34.922-78 78-78Z" fill="#66E2DC" /><rect fill="#FCFAF9" x="78" y="78" width="78" height="78" rx="39" /><rect fill="#66E2DC" width="78" height="156" rx="39" /><rect fill="#FFB964" y="156" width="156" height="156" rx="78" /><g transform="translate(0 312)" stroke="#FCFAF9" stroke-width="2"><rect x="1" y="1" width="154" height="154" rx="77" /><rect x="40" y="79" width="76" height="76" rx="38" /></g></g></svg>
             </div>
             {/* Phone image */}
-            <div className='absolute w-52 h-4 left-16  sm:w-full  sm:left-[134px] top-[-171px] bottom-[172px] '>
+            <div className='absolute w-52 h-4 left-20  lg:w-full  lg:left-[134px] top-[-171px] bottom-[172px] '>
               <Image src='/illustration-app.png' width={280} height={606} />
             </div>
             {/* Orange card */}
-            <div className=' text-white p-14 absolute rounded-lg top-[420px] w-[375px] h-[625px] sm:w-[446px]  md:left-[569px] sm:left-[300px] sm:top-[90px]  bg-[#FA7453]'>
+            <div className=' text-white p-14 absolute rounded-lg top-[420px] w-[375px] h-[625px] sm:w-[446px]  lg:left-[300px] lg:top-[90px]  bg-[#FA7453]'>
               <p className='pb-6 text-3xl font-bold'>Premium EQ</p>
-              <p className=' text-l sm:text-xl leading-8'>Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your listening experience to a whole new level and access all our incredible features!</p>
+              <p className='leading-8 text-l sm:text-xl'>Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your listening experience to a whole new level and access all our incredible features!</p>
               <div className='flex items-center py-10 mb-6'>
                 <p className='text-6xl font-bold'>$4 </p>
                 <p className='ml-3 text-xl'>/ month</p>
@@ -66,8 +70,8 @@ export default function Home() {
 
         {/* Footer */}
 
-        <div className='flex justify-center mb-12 sm:mb-0 mt-[500px] pb-[91px] sm:mt-64 '>
-          <div className=' flex m-10 pb-5 flex-col space-y-10 justify-between md:flex sm:bg-white sm:flex-row  w-[1110px] h-[79px] '>
+        <div className='flex justify-center mb-12 lg:mb-0 mt-[500px] pb-[91px] lg:mt-64 '>
+          <div className=' flex m-10 pb-5 flex-col space-y-10 justify-between md:flex  sm:flex-row  w-[1110px] h-[79px] '>
 
             <p className='text-2xl font-bold '>equalizer</p>
             {/* 1. Rights and contact us */}
@@ -81,13 +85,14 @@ export default function Home() {
 
 
             {/* 2.  Social media icons */}
-            <div className='flex items-center space-x-[20px] '>
+            <div className='flex items-center space-x-[20px]  '>
               <svg className=' cursor-pointer fill-[#191826] hover:fill-[#FA7453]' width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0Z" /></svg>
               <svg className=' cursor-pointer fill-[#191826] hover:fill-[#FA7453]' width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M10 1.802c2.67 0 2.987.01 4.042.059 2.71.123 3.975 1.409 4.099 4.099.048 1.054.057 1.37.057 4.04 0 2.672-.01 2.988-.057 4.042-.124 2.687-1.387 3.975-4.1 4.099-1.054.048-1.37.058-4.041.058-2.67 0-2.987-.01-4.04-.058-2.718-.124-3.977-1.416-4.1-4.1-.048-1.054-.058-1.37-.058-4.041 0-2.67.01-2.986.058-4.04.124-2.69 1.387-3.977 4.1-4.1 1.054-.048 1.37-.058 4.04-.058ZM10 0C7.284 0 6.944.012 5.877.06 2.246.227.227 2.242.061 5.877.01 6.944 0 7.284 0 10s.012 3.057.06 4.123c.167 3.632 2.182 5.65 5.817 5.817 1.067.048 1.407.06 4.123.06s3.057-.012 4.123-.06c3.629-.167 5.652-2.182 5.816-5.817.05-1.066.061-1.407.061-4.123s-.012-3.056-.06-4.122C19.777 2.249 17.76.228 14.124.06 13.057.01 12.716 0 10 0Zm0 4.865a5.135 5.135 0 1 0 0 10.27 5.135 5.135 0 0 0 0-10.27Zm0 8.468a3.333 3.333 0 1 1 0-6.666 3.333 3.333 0 0 1 0 6.666Zm5.338-9.87a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4Z" /></svg>
               <svg className=' cursor-pointer fill-[#191826] hover:fill-[#FA7453]' width="20" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M20 2.172a8.192 8.192 0 0 1-2.357.646 4.11 4.11 0 0 0 1.805-2.27 8.22 8.22 0 0 1-2.606.996A4.096 4.096 0 0 0 13.847.248c-2.65 0-4.596 2.472-3.998 5.037A11.648 11.648 0 0 1 1.392 1a4.109 4.109 0 0 0 1.27 5.478 4.086 4.086 0 0 1-1.858-.513c-.045 1.9 1.318 3.679 3.291 4.075a4.113 4.113 0 0 1-1.853.07 4.106 4.106 0 0 0 3.833 2.849A8.25 8.25 0 0 1 0 14.658a11.616 11.616 0 0 0 6.29 1.843c7.618 0 11.923-6.434 11.663-12.205A8.354 8.354 0 0 0 20 2.172Z" /></svg>
             </div>
           </div>
         </div>
+
 
       </div>
 
