@@ -23,10 +23,10 @@ export default function Home() {
         </div>
 
         {/* Black background element */}
-        <div className=' rounded-lg mx-auto my-80 w-[375px]  lg:w-[1110px] md:w-[810px] h-[600px] bg-black'>
+        <div className=' rounded-lg mx-auto my-80 w-[375px] md:w-[696px]  lg:w-[1110px]  h-[600px] bg-black'>
           <div className='relative'>
             {/* Background multicolor patttern */}
-            <div className=' absolute bottom-[-469px] left-8 md:bottom-[-425px]   lg:left-[336px]  overflow-hidden'>
+            <div className=' absolute bottom-[-469px] left-8 md:bottom-[-425px] md:left-[170px]   lg:left-[336px]  overflow-hidden'>
               <svg width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M234 78c43.078 0 78 34.922 78 78v156h-56c-55.228 0-100-44.772-100-100v-56c0-43.078 34.922-78 78-78Z" fill="#66E2DC" /><rect fill="#FCFAF9" x="78" y="78" width="78" height="78" rx="39" /><rect fill="#66E2DC" width="78" height="156" rx="39" /><rect fill="#FFB964" y="156" width="156" height="156" rx="78" /><g transform="translate(0 312)" stroke="#FCFAF9" stroke-width="2"><rect x="1" y="1" width="154" height="154" rx="77" /><rect x="40" y="79" width="76" height="76" rx="38" /></g></g></svg>
             </div>
             {/* Phone image */}
@@ -34,7 +34,7 @@ export default function Home() {
               <Image src='/illustration-app.png' width={280} height={606} />
             </div>
             {/* Orange card */}
-            <div className=' text-white p-14 absolute rounded-lg top-[420px] w-[375px] h-[625px] sm:w-[446px]  lg:left-[300px] lg:top-[90px]  bg-[#FA7453]'>
+            <div className=' text-white p-14 absolute rounded-lg top-[420px] w-[375px] h-[625px] md:w-[400px] md:top-[150px] md:left-[200px]  lg:left-[300px] lg:top-[90px]  bg-[#FA7453]'>
               <p className='pb-6 text-3xl font-bold'>Premium EQ</p>
               <p className='leading-8 text-l sm:text-xl'>Get expert-level control with a robust equalizer, volume mixer, and spatial audio. Take your listening experience to a whole new level and access all our incredible features!</p>
               <div className='flex items-center py-10 mb-6'>
@@ -71,15 +71,19 @@ export default function Home() {
         {/* Footer */}
 
         <div className='flex justify-center mb-12 lg:mb-0 mt-[500px] pb-[91px] lg:mt-64 '>
-          <div className=' flex m-10 pb-5 flex-col space-y-10 justify-between md:flex  sm:flex-row  w-[1110px] h-[79px] '>
-
+          <div className=' flex m-10 pb-5 flex-col space-y-10 justify-between lg:flex  lg:flex-row  w-[1110px] h-[79px] '>
+            
+            <div className='flex md:flex-col justify-between border-4 border-red-600 min-w-[800px]'>
+              <div>
             <p className='text-2xl font-bold '>equalizer</p>
+            </div>
             {/* 1. Rights and contact us */}
             <div className='text-left max-w-[366px]'>
-              <p>All rights reserved © Equalizer 2021</p>
+              <p className=''>All rights reserved © Equalizer 2021</p>
               <p className='text-[16px] leading-20'>
                 Have any problems? Contact us via social media or email us at <strong>equalizer@example.com</strong>
               </p>
+            </div>
             </div>
 
 
