@@ -26,11 +26,11 @@ export default function Home() {
         <div className=' rounded-lg mx-auto my-80 w-[375px] md:w-[696px]  lg:w-[1110px]  h-[600px] bg-black'>
           <div className='relative'>
             {/* Background multicolor patttern */}
-            <div className=' absolute bottom-[-469px] left-8 md:bottom-[-425px] md:left-[170px]   lg:left-[336px]  overflow-hidden'>
+            <div className=' absolute bottom-[-469px] left-8 md:left-[220px] md:bottom-[-425px]   lg:left-[336px]  overflow-hidden'>
               <svg width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M234 78c43.078 0 78 34.922 78 78v156h-56c-55.228 0-100-44.772-100-100v-56c0-43.078 34.922-78 78-78Z" fill="#66E2DC" /><rect fill="#FCFAF9" x="78" y="78" width="78" height="78" rx="39" /><rect fill="#66E2DC" width="78" height="156" rx="39" /><rect fill="#FFB964" y="156" width="156" height="156" rx="78" /><g transform="translate(0 312)" stroke="#FCFAF9" stroke-width="2"><rect x="1" y="1" width="154" height="154" rx="77" /><rect x="40" y="79" width="76" height="76" rx="38" /></g></g></svg>
             </div>
             {/* Phone image */}
-            <div className='absolute w-52 h-4 left-20  lg:w-full  lg:left-[134px] top-[-171px] bottom-[172px] '>
+            <div className='absolute w-52 h-4 left-20 md:w-[270px] md:left-16  lg:w-full  lg:left-[134px] top-[-171px] bottom-[172px] '>
               <Image src='/illustration-app.png' width={280} height={606} />
             </div>
             {/* Orange card */}
