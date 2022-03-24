@@ -10,7 +10,7 @@ export default function Home() {
       <div className='relative bg-main-mobile md:bg-main-tablet lg:bg-main-desktop h-max l-max font-IBM'>
 
         {/* Top image */}
-        <svg className='absolute top-0 right-0 hidden md:block' width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M78 0c43.078 0 78 34.922 78 78v234h-56C44.772 312 0 267.228 0 212V78C0 34.922 34.922 0 78 0Z" fill="#66E2DC" /><path d="M156 312h78c43.078 0 78 34.922 78 78s-34.922 78-78 78-78-34.922-78-78v-78Z" fill="#191826" /><rect fill="#FFB964" x="234" y="78" width="78" height="78" rx="39" /><rect fill="#FA7453" x="234" width="78" height="78" rx="39" /><rect fill="#FA7453" y="312" width="156" height="156" rx="78" /><rect fill="#191826" x="156" width="78" height="156" rx="39" /><rect stroke="#191826" stroke-width="2" x="157" y="157" width="154" height="154" rx="77" /><rect stroke="#191826" stroke-width="2" x="157" y="196" width="76" height="76" rx="38" /></g></svg>
+        <svg className='absolute top-0 right-0 hidden md:block' width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" fillRule="evenodd"><path d="M78 0c43.078 0 78 34.922 78 78v234h-56C44.772 312 0 267.228 0 212V78C0 34.922 34.922 0 78 0Z" fill="#66E2DC" /><path d="M156 312h78c43.078 0 78 34.922 78 78s-34.922 78-78 78-78-34.922-78-78v-78Z" fill="#191826" /><rect fill="#FFB964" x="234" y="78" width="78" height="78" rx="39" /><rect fill="#FA7453" x="234" width="78" height="78" rx="39" /><rect fill="#FA7453" y="312" width="156" height="156" rx="78" /><rect fill="#191826" x="156" width="78" height="156" rx="39" /><rect stroke="#191826" strokeWidth="2" x="157" y="157" width="154" height="154" rx="77" /><rect stroke="#191826" strokeWidth="2" x="157" y="196" width="76" height="76" rx="38" /></g></svg>
 
         {/* Brand and descrition */}
         <div className='max-w-3xl pt-12 pl-6 mx-auto '>
@@ -25,7 +25,7 @@ export default function Home() {
 
             {/* Background multicolor patttern */}
             <div className=' absolute bottom-[-469px] left-8 md:left-[220px] md:bottom-[-425px] lg:left-[336px]'>
-              <svg width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M234 78c43.078 0 78 34.922 78 78v156h-56c-55.228 0-100-44.772-100-100v-56c0-43.078 34.922-78 78-78Z" fill="#66E2DC" /><rect fill="#FCFAF9" x="78" y="78" width="78" height="78" rx="39" /><rect fill="#66E2DC" width="78" height="156" rx="39" /><rect fill="#FFB964" y="156" width="156" height="156" rx="78" /><g transform="translate(0 312)" stroke="#FCFAF9" stroke-width="2"><rect x="1" y="1" width="154" height="154" rx="77" /><rect x="40" y="79" width="76" height="76" rx="38" /></g></g></svg>
+              <svg width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" filRule="evenodd"><path d="M234 78c43.078 0 78 34.922 78 78v156h-56c-55.228 0-100-44.772-100-100v-56c0-43.078 34.922-78 78-78Z" fill="#66E2DC" /><rect fill="#FCFAF9" x="78" y="78" width="78" height="78" rx="39" /><rect fill="#66E2DC" width="78" height="156" rx="39" /><rect fill="#FFB964" y="156" width="156" height="156" rx="78" /><g transform="translate(0 312)" stroke="#FCFAF9" strokeWidth="2"><rect x="1" y="1" width="154" height="154" rx="77" /><rect x="40" y="79" width="76" height="76" rx="38" /></g></g></svg>
             </div>
 
             {/* Phone image */}
