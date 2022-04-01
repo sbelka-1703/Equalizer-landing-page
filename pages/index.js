@@ -7,9 +7,13 @@ export default function Home() {
 
     <>
       <html lang="en">
-        <header>
-          <h1>Equalizer-landing-page</h1>
-        </header>
+        <head>
+          <header>
+            <title>
+            <h1>Equalizer-landing-page</h1>
+            </title>
+          </header>
+        </head>
         <body>
           <div className='relative bg-main-mobile md:bg-main-tablet lg:bg-main-desktop h-max l-max font-IBM'>
 
