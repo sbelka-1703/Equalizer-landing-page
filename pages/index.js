@@ -7,6 +7,9 @@ export default function Home() {
 
     <>
       <html lang="en">
+        <header>
+          <h1>Equalizer-landing-page</h1>
+        </header>
         <body>
           <div className='relative bg-main-mobile md:bg-main-tablet lg:bg-main-desktop h-max l-max font-IBM'>
 
@@ -31,7 +34,7 @@ export default function Home() {
 
                 {/* Phone image */}
                 <div className='absolute w-52 h-4 left-20 top-[-95px] bottom-[172px] md:w-[270px] md:left-16  lg:w-full md:top-[-143px]  lg:left-[134px] lg:top-[-171px] lg:bottom-[172px] '>
-                  <Image src='/illustration-app.png' width={280} height={606} />
+                  <Image src='/illustration-app.png' width={280} height={606} alt="Image of a phone" />
                 </div>
 
                 {/* Orange card */}
