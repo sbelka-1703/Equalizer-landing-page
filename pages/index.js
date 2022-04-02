@@ -8,17 +8,15 @@ export default function Home() {
     <>
       <html lang="en">
         <head>
-          <header>
-            <title>
+          <title>
             <h1>Equalizer-landing-page</h1>
-            </title>
-          </header>
+          </title>
         </head>
         <body>
           <div className='relative bg-main-mobile md:bg-main-tablet lg:bg-main-desktop h-max l-max font-IBM'>
 
             {/* Top image */}
-            <svg className='absolute top-0 right-0 hidden md:block' width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" fillRule="evenodd"><path d="M78 0c43.078 0 78 34.922 78 78v234h-56C44.772 312 0 267.228 0 212V78C0 34.922 34.922 0 78 0Z" fill="#66E2DC" /><path d="M156 312h78c43.078 0 78 34.922 78 78s-34.922 78-78 78-78-34.922-78-78v-78Z" fill="#191826" /><rect fill="#FFB964" x="234" y="78" width="78" height="78" rx="39" /><rect fill="#FA7453" x="234" width="78" height="78" rx="39" /><rect fill="#FA7453" y="312" width="156" height="156" rx="78" /><rect fill="#191826" x="156" width="78" height="156" rx="39" /><rect stroke="#191826" strokeWidth="2" x="157" y="157" width="154" height="154" rx="77" /><rect stroke="#191826" strokeWidth="2" x="157" y="196" width="76" height="76" rx="38" /></g></svg>
+            <svg className='absolute top-0 right-0 hidden md:block' width="312" height="468" xmlns="http://www.w3.org/2000/svg"><g fill="none" fillrule="evenodd"><path d="M78 0c43.078 0 78 34.922 78 78v234h-56C44.772 312 0 267.228 0 212V78C0 34.922 34.922 0 78 0Z" fill="#66E2DC" /><path d="M156 312h78c43.078 0 78 34.922 78 78s-34.922 78-78 78-78-34.922-78-78v-78Z" fill="#191826" /><rect fill="#FFB964" x="234" y="78" width="78" height="78" rx="39" /><rect fill="#FA7453" x="234" width="78" height="78" rx="39" /><rect fill="#FA7453" y="312" width="156" height="156" rx="78" /><rect fill="#191826" x="156" width="78" height="156" rx="39" /><rect stroke="#191826" strokeWidth="2" x="157" y="157" width="154" height="154" rx="77" /><rect stroke="#191826" strokeWidth="2" x="157" y="196" width="76" height="76" rx="38" /></g></svg>
 
             {/* Brand and descrition */}
             <div className='max-w-3xl pt-12 pl-6 mx-auto '>
@@ -75,7 +73,7 @@ export default function Home() {
             </div>
 
             {/* Footer */}
-            <div className='flex justify-center mb-12 lg:mb-0 mt-[500px] pb-[91px] lg:mt-64 '>
+            <footer className='flex justify-center mb-12 lg:mb-0 mt-[500px] pb-[91px] lg:mt-64 '>
 
 
               <div className=' flex m-10 pb-5 flex-col space-y-10 justify-between lg:flex  lg:flex-row  w-[1110px] h-[79px] '>
@@ -104,7 +102,7 @@ export default function Home() {
                   <svg className=' cursor-pointer fill-[#191826] hover:fill-[#FA7453]' width="20" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M20 2.172a8.192 8.192 0 0 1-2.357.646 4.11 4.11 0 0 0 1.805-2.27 8.22 8.22 0 0 1-2.606.996A4.096 4.096 0 0 0 13.847.248c-2.65 0-4.596 2.472-3.998 5.037A11.648 11.648 0 0 1 1.392 1a4.109 4.109 0 0 0 1.27 5.478 4.086 4.086 0 0 1-1.858-.513c-.045 1.9 1.318 3.679 3.291 4.075a4.113 4.113 0 0 1-1.853.07 4.106 4.106 0 0 0 3.833 2.849A8.25 8.25 0 0 1 0 14.658a11.616 11.616 0 0 0 6.29 1.843c7.618 0 11.923-6.434 11.663-12.205A8.354 8.354 0 0 0 20 2.172Z" /></svg>
                 </div>
               </div>
-            </div>
+            </footer>
 
 
           </div>
